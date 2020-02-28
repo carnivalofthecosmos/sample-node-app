@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "docker build -t ${ECR_URL}:${APP_BUILD_VERSION} . && docker push ${ECR_URL}:{APP_BUILD_VERSION}"
+    "build": "docker build -t ${ECR_URL}:${APP_BUILD_VERSION} . && docker push ${ECR_URL}:${APP_BUILD_VERSION}"
   },
   "author": "",
   "license": "ISC",
